@@ -32,7 +32,7 @@ Quantum Bookstore is a simple Java console-based application that simulates an o
 
 ## Screenshots
 
-### App Running in IntelliJ (Successful Purchases)
+### App Running in IntelliJ
 ![App Running with error handling](screenshot/output1.png)
 
 ## Folder Structure
