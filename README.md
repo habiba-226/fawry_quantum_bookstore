@@ -1,4 +1,4 @@
-# Quantum Bookstore 
+# Quantum Bookstore
 
 Quantum Bookstore is a simple Java console-based application that simulates an online bookstore with different types of books and purchasing logic.
 
@@ -36,20 +36,26 @@ Quantum Bookstore is a simple Java console-based application that simulates an o
 ![App Running with error handling](screenshot/output1.png)
 
 ## Folder Structure
+
+```
 Quantum Bookstore/
-│
 ├── src/
-│ ├── Book.java
-│ ├── PaperBook.java
-│ ├── EBook.java
-│ ├── ShowcaseBook.java
-│ ├── BookStore.java
-│ ├── ShippingService.java
-│ ├── MailService.java
-│ └── Main.java (testing class)
+│   ├── Book.java
+│   ├── PaperBook.java
+│   ├── EBook.java
+│   ├── ShowcaseBook.java
+│   ├── BookStore.java
+│   ├── ShippingService.java
+│   ├── MailService.java
+│   └── Main.java (testing class)
+└── screenshot/
+    └── output1.png
+```
 
 ## Notes
 
-- You can easily extend the system by adding new types of books without modifying the existing ones.
+- You can easily extend the system by adding new types of books without modifying the existing ones
+- The application demonstrates key OOP principles including inheritance and polymorphism
+- Error handling is implemented for common scenarios like out-of-stock items and invalid ISBNs
 
 ---
