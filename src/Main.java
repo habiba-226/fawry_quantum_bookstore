@@ -9,7 +9,7 @@ public class Main {
         bookStore.addBook(new PaperBook("005", "C++ Fundamentals", "Bella", 1990, 250.0, 2));
 
 
-        //remove C Fundamentals
+        //remove C++ Fundamentals
         bookStore.removeOutdatedBooks(10, 2025);
 
         //testing to buy paper book
